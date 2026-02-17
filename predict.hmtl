@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction</title>
+</head>
+<body>
+
+<h2>Enter Patient Details</h2>
+
+<form action="/result" method="post">
+
+Age: <input type="text" name="age"><br><br>
+Blood Pressure: <input type="text" name="bp"><br><br>
+Cholesterol: <input type="text" name="chol"><br><br>
+
+<input type="submit" value="Predict">
+
+</form>
+
+</body>
+</html>
